@@ -1,0 +1,107 @@
+.App {
+  background-color: #A6D49F;
+  min-height: 1100px;
+}
+
+.App-logo {
+  height: 260px;
+  width: 100px;
+  position: absolute;
+  left: 47px;
+  top: 115px;
+  z-index: 5;
+}
+
+.App-circle-1 {
+  width: 1200px;
+  height: 1200px;
+  background: #9CB380;
+  border-radius: 50%;
+  position: absolute;
+  left: -38px;
+  top: -110px;
+  z-index: 1;
+}
+
+.App-circle-2 {
+  width: 750px;
+  height: 750px;
+  background: #522A27;
+  border-radius: 50%;
+  position: absolute;
+  left: -414px;
+  top: 35px;
+  z-index: 2;
+}
+
+.App-circle-3 {
+  width: 750px;
+  height: 750px;
+  background: #C73E1D;
+  border-radius: 50%;
+  position: absolute;
+  left: 52px;
+  top: -255px;
+  z-index: 3;
+}
+
+.App-circle-4 {
+  width: 525px;
+  height: 525px;
+  background: #C59849;
+  border-radius: 50%;
+  position: absolute;
+  left: -181px;
+  top: -272px;
+  z-index: 4;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    /*animation: App-logo-spin infinite 20s linear;*/
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-header {
+  position: absolute;
+  right: 72px;
+  top: 36px;
+  z-index: 5;
+}
+
+.App-link {
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+  padding: 8px 20px;
+}
+
+.App-content {
+  margin-top: 15rem;
+  position: absolute;
+  width: 100%;
+  z-index: 6;
+}
+
+.App-avatar {
+  position: absolute;
+  top: -150px;
+  right: 300px;
+}
+
+.App-card {
+  background: white;
+  width: 720px;
+  padding: 96px 64px;
+  margin: 0 auto;
+}
